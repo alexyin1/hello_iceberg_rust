@@ -1,0 +1,9 @@
+[package]
+name = "hello_iceberg_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+iceberg = { git = "https://github.com/apache/iceberg-rust", rev = "0942e3cd34d0fd19d7b825feafe67428e703a3f5" }
+iceberg-catalog-rest = { git = "https://github.com/apache/iceberg-rust", rev = "0942e3cd34d0fd19d7b825feafe67428e703a3f5" }
